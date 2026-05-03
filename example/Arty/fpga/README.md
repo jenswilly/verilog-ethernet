@@ -8,7 +8,7 @@ The design by default listens to UDP port 1234 at IP address 192.168.1.128 and
 will echo back any packets received.  The design will also respond correctly
 to ARP requests.  
 
-*  FPGA: XC7A35TICSG324-1L
+*  FPGA: XC7A35TICSG324-1L <- Changed to `xc7a100tcsg324-1` -JWJ
 *  PHY: TI DP83848J
 
 ## How to build

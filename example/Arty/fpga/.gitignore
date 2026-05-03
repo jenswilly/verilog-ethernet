@@ -1,0 +1,14 @@
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.srcs/
+*.gen/
+*.jou
+*.log
+*.xpr
+vivado*.str
+*.dcp
+
+.Xil/
