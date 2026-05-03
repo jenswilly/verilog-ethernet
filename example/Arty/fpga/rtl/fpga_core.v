@@ -244,6 +244,7 @@ assign tx_ip_payload_axis_tlast = 0;
 assign tx_ip_payload_axis_tuser = 0;
 
 // Loop back UDP
+// JWJ: https://stackoverflow.com/a/36775843 for equivalent in VHDL
 wire match_cond = rx_udp_dest_port == 1234;
 wire no_match = !match_cond;
 

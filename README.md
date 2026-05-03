@@ -1,3 +1,23 @@
+# Ethernet Example Code
+
+## Components used 
+
+* IBUFG (Xilinx): input buffer for clock signal
+* BUFG (Xilinx): low-skew clock routing
+* MMCME2 (Xilinx): clock wizard (100 -> 125 MHz)
+* sync_reset (lib): reset
+* debounce_switch (lib): button debounce
+* sync_signal (lib): synchronize signal to specified clock domain
+* fpga_core (local)
+    * eth_mac_mii_fifo (lib)
+    * eth_axis_rx (lib)
+    * eth_axis_tx (lib)
+    * udp_complete (lib)
+    * axis_fifo (lib)
+
+
+---
+
 # Verilog Ethernet Components Readme
 
 [![Build Status](https://github.com/alexforencich/verilog-ethernet/workflows/Regression%20Tests/badge.svg?branch=master)](https://github.com/alexforencich/verilog-ethernet/actions/)
